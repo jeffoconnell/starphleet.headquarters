@@ -7,20 +7,8 @@
 #in this case, this order for a service is at /echo, so
 #http://<shipname>/echo
 #reaches this service
-export PORT='3000'
-export PUBLISH_PORT='8000'
-
-#make sure we are on the air
-export HEALTHCHECK='/'
-
-#this is an example of a service that needs to stop before autodeploy
-#this comes up with services that may have file locks so that two
-#instances cannot run at the same time
-stop_before_autodeploy
+export PORT=3000
 
 #this is an autodeployed service, starphleet will watch this git repository
 #and if it sees and changes to a rolling, no-interruption deployment
-autodeploy https://github.com/wballard/echo.git#headers
-
-beta beep /echo/beep
-beta boop /echo/boop
+autodeploy https://github.com/wballard/echo.git
