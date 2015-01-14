@@ -1,0 +1,3 @@
+export LDAP_URL='ldap://guardian-gc.glgresearch.com:3268/dc=glgroup,dc=com?sAMAccountName?sub?(objectCategory=person)(objectClass=User)'
+export LDAP_USER='glgroup\\svcWebAppAuthBindAct'
+export LDAP_PASSWORD='7D@p81nd'

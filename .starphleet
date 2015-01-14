@@ -1,1 +1,25 @@
-#This will be sourced in every starphleet job, so put 'global' things here
+#exciting stuff for Mosaic
+export MONGO_HOST="mongo-master.glgresearch.com"
+export MONGO_UID="mosaicAdmin"
+export MONGO_PWD="B4DS2g6tbzpL2g"
+export DW_HOST="10.20.41.231"
+export DW_UID="glguser"
+export DW_PWD="w@r3h0use"
+export USER_IDENTITY_HEADER='x-glgauthuser'
+
+export DATABASE_GLGLIVE_SERVER=192.168.186.132
+export DATABASE_GLGLIVE_PORT=1433
+export DATABASE_GLGLIVE_DATABASE=GLGLIVE
+export DATABASE_GLGLIVE_USER=GLGROUP_LIVE
+export DATABASE_GLGLIVE_PASSWORD=GLGROUP_LIVE
+
+export DATABASE_TRANSACTIONPLATFORM_USER=GLGTRAN
+export DATABASE_TRANSACTIONPLATFORM_PWD=GLGTRAN
+export DATABASE_TRANSACTIONPLATFORM_SERVER=$DATABASE_GLGLIVE_SERVER
+
+export KVSTORE_SERVICE='http://services.glgresearch.com/kvstore/54BC40D3-8B26-4DD9-A2D2-D3EC20C3E601/kv/'
+export CALENDAR_SERVICE='http://services.glgresearch.com/kvstore/54BC40D3-8B26-4DD9-A2D2-D3EC20C3E601/calendar/'
+export BOD_SERVICE='http://services.glgresearch.com/bod/54BC40D3-8B26-4DD9-A2D2-D3EC20C3E601'
+
+export SALESFORCE_API_USER='blah@blah.cat'
+export SALESFORCE_API_PWD='poop'
