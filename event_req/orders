@@ -1,0 +1,2 @@
+export PORT=3000
+autodeploy git@github.com:glg/event-rec.git
